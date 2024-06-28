@@ -214,7 +214,6 @@
   justify-content: space-between;
   padding: 3rem;
   height: 39.85rem;
- 
 }
 
 .left-service {
@@ -295,4 +294,47 @@ textarea {
 
 .right-nav a:hover {
   color: #a9508b;
+}
+
+@media (max-width: 1334px) {
+  .services {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem;
+    height: 80.85rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .services {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    height: 140.85rem;
+    font-family: 0.5rem;
+  }
+}
+.clarusway-text3 {
+  color: white;
+  text-align: center;
+  background-color: #35424a;
+  line-height: 3rem;
+  padding: 2rem;
+}
+
+@media (max-width: 1068px) {
+  .left-service {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    padding: 3rem;
+    flex-wrap: wrap;
+    font-family: 4.8px;
+  }
 }
