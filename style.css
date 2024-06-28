@@ -113,3 +113,36 @@ cursor: pointer;
       color: white;
       font-size: 1.7rem;
     }
+
+    .bottom-main{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+      padding: 2rem;
+      
+      
+    }
+
+    .bottom-main img{
+      width: 4.6875rem;
+      height: 4.6875rem;
+    }
+    .html{
+      line-height: 1.6rem;
+    }
+    .css{line-height: 1.6rem;
+
+    }
+
+    .graphic-design{line-height: 1.6rem;}
+
+    .clarusway-text{
+      color: white;
+     text-align: center;
+     background-color: #35424A;
+     line-height: 3rem;
+     padding: 2rem;
+    
+    }
