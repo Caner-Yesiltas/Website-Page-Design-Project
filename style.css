@@ -339,3 +339,13 @@ textarea {
     font-family: 4.8px;
   }
 }
+
+
+@media (max-width: 520px) {
+  .about-us {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    height: 110.25rem;
+  }
+}
